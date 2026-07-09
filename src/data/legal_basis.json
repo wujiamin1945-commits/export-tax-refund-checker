@@ -1,0 +1,162 @@
+[
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_1_1_1",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第一条第（一）项第1目",
+    "summary": "出口货物适用退免税需满足销售给境外单位或个人、向海关报关并实际离境、按会计制度确认销售、按规定收汇等条件。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_2_2",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第二条第（二）项",
+    "summary": "外贸企业或者其他单位出口货物适用免退税办法，出口环节免征增值税，对应进项税额予以退还。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_1_1_2_1",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第一条第（一）项第2目第（1）点",
+    "summary": "向海关报关进入保税港区、综合保税区、珠澳跨境工业区珠海园区、保税物流中心（B型），并销售给特殊区域内单位或境外单位、个人的货物，属于视同出口货物。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_7_1_2",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第七条第（一）项第2目",
+    "summary": "纳税人销售给特殊区域内的生活消费用品和交通运输工具，适用增值税征税政策。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_4_1_7",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第四条第（一）项第7目",
+    "summary": "外贸企业出口货物的退税计税依据为购进出口货物的增值税专用发票注明金额，或者海关进口增值税专用缴款书注明的计税价格。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_3_2_1",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第三条第（二）项第1目",
+    "summary": "外贸企业购进按简易计税方法征税的出口货物或从小规模纳税人购进出口货物，取得增值税专用发票的，退税率按专票上的税率（征收率）和出口业务退税率孰低原则确定。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_4_1_11",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第四条第（一）项第11目",
+    "summary": "纳税人出口进项税额未计算抵扣的已使用过设备，实行免退税办法。退免税计税依据＝增值税专用发票上的金额或海关进口增值税专用缴款书注明的计税价格×已使用过设备固定资产净值÷已使用过设备原值；固定资产净值＝设备原值－已提累计折旧。已使用过设备是指按财务会计制度已经计提折旧的固定资产。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_5_2",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第五条第（二）项",
+    "summary": "适用免退税办法的，增值税应退税额等于增值税退免税计税依据乘以出口退税率。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_6_1_1_6",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第六条第（一）项第1目第（6）点",
+    "summary": "已使用过设备购进时未取得增值税专用发票、海关进口增值税专用缴款书但其他相关单证齐全的，适用增值税免税政策。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_6_1_GENERAL",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第六条第（一）项",
+    "summary": "公告列明适用增值税免税政策的出口货物、跨境销售服务和无形资产范围；符合其中具体情形的，适用出口免征增值税政策。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_6_2_1",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第六条第（二）项第1目",
+    "summary": "适用增值税免税政策的出口业务，其进项税额不得抵扣和退税，应当转入成本。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_7_1_1",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第七条第（一）项第1目",
+    "summary": "纳税人出口财政部和税务总局根据国务院决定明确的取消出口退（免）税货物，除公告列明的例外情形外，不适用退（免）税和免税政策，应按规定缴纳增值税。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "VAT_EXPORT_2026_11_ARTICLE_6_1_1_10",
+    "document": "财政部 税务总局公告2026年第11号",
+    "article": "第六条第（一）项第1目第（10）点",
+    "summary": "外贸企业出口货物取得普通发票、政府非税收入票据、拍卖成交确认书及收据等凭证的，适用增值税免税政策。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "EXPORT_REFUND_ADMIN_2026_5_ARTICLE_18_1_3",
+    "document": "国家税务总局公告2026年第5号",
+    "article": "第十八条第（一）项第3目",
+    "summary": "外贸企业出口货物申报免退税，购进凭证包括增值税专用发票、海关进口增值税专用缴款书等。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "EXPORT_REFUND_ADMIN_2026_5_ARTICLE_20_2",
+    "document": "国家税务总局公告2026年第5号",
+    "article": "第二十条第（二）项",
+    "summary": "出口进项税额未计算抵扣的已使用过设备申报免退税时，应报送《出口已使用过的设备退税申报表》等资料。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  },
+  {
+    "id": "DUAL_USE_CATALOG_2026",
+    "document": "商务部 海关总署公告2025年第91号",
+    "article": "2026年度《两用物项和技术进出口许可证管理目录》说明",
+    "summary": "目录提供参考商品名称和海关商品编号，用于企业初步筛查。是否属于两用物项应以《中华人民共和国两用物项出口管制清单》、相关公告及物项技术参数为准，不以是否配有海关商品编号为条件。",
+    "status": "current",
+    "effective_from": "2026-01-01",
+    "effective_to": null,
+    "data_version": "policy-2026.01"
+  }
+]

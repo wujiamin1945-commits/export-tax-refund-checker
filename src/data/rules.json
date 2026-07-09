@@ -1,0 +1,18 @@
+[
+  {"rule_id":"HSCODE_INVALID","version":"1.0","enabled":true,"title":"HSCode 格式校验","result_type":"need_review","legal_basis_ids":[]},
+  {"rule_id":"REFUND_RATE_NOT_FOUND","version":"1.0","enabled":true,"title":"退税率未匹配","result_type":"need_review","legal_basis_ids":[]},
+  {"rule_id":"REFUND_RATE_ZERO","version":"1.2","enabled":true,"title":"退税率为零，需判断政策属性","result_type":"need_classification","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_5_2","VAT_EXPORT_2026_11_ARTICLE_6_1_GENERAL","VAT_EXPORT_2026_11_ARTICLE_6_2_1","VAT_EXPORT_2026_11_ARTICLE_7_1_1","VAT_EXPORT_2026_11_ARTICLE_7_1_2"]},
+  {"rule_id":"BASIC_EXPORT_CONDITION","version":"1.0","enabled":true,"title":"出口退税基础条件","result_type":"basic_check","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_1_1_1"]},
+  {"rule_id":"SPECIAL_ZONE_DEEMED_EXPORT","version":"1.0","enabled":true,"title":"特殊区域视同出口货物","result_type":"basic_check","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_1_1_2_1"]},
+  {"rule_id":"SPECIAL_ZONE_TAXABLE_GOODS","version":"1.0","enabled":true,"title":"特殊区域生活消费用品或交通运输工具征税","result_type":"tax_risk","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_7_1_2"]},
+  {"rule_id":"FOREIGN_TRADE_ENTERPRISE_REFUND","version":"1.0","enabled":true,"title":"外贸企业免退税","result_type":"eligible_refund","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_2_2","VAT_EXPORT_2026_11_ARTICLE_4_1_7","VAT_EXPORT_2026_11_ARTICLE_5_2","EXPORT_REFUND_ADMIN_2026_5_ARTICLE_18_1_3"]},
+  {"rule_id":"ENTERPRISE_TYPE_REVIEW","version":"1.0","enabled":true,"title":"企业类型人工复核","result_type":"need_review","legal_basis_ids":[]},
+  {"rule_id":"VALID_INPUT_DOCUMENT","version":"1.0","enabled":true,"title":"退税进项凭证","result_type":"document_check","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_4_1_7","EXPORT_REFUND_ADMIN_2026_5_ARTICLE_18_1_3"]},
+  {"rule_id":"INVOICE_RATE_LOWER_OF","version":"1.0","enabled":true,"title":"专票税率或征收率与出口退税率孰低","result_type":"rate_check","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_3_2_1"]},
+  {"rule_id":"NO_PURCHASE_DOCUMENT_REVIEW","version":"1.0","enabled":true,"title":"未确认任何可用购进凭证","result_type":"need_review","legal_basis_ids":["EXPORT_REFUND_ADMIN_2026_5_ARTICLE_18_1_3"]},
+  {"rule_id":"NORMAL_INVOICE_OR_RECEIPT_EXEMPT","version":"1.0","enabled":true,"title":"普通发票、拍卖确认书、收据等凭证免税不退税","result_type":"exempt_no_refund","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_6_1_1_10"]},
+  {"rule_id":"USED_EQUIPMENT_NO_VALID_INPUT_DOCUMENT","version":"1.0","enabled":true,"title":"旧设备无有效进项凭证免税不退税","result_type":"exempt_no_refund","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_6_1_1_6"]},
+  {"rule_id":"OWN_USED_EQUIPMENT_SPECIAL_REVIEW","version":"1.1","enabled":true,"title":"本企业已使用并计提折旧设备专项复核","result_type":"need_review","legal_basis_ids":["VAT_EXPORT_2026_11_ARTICLE_4_1_11","VAT_EXPORT_2026_11_ARTICLE_5_2","EXPORT_REFUND_ADMIN_2026_5_ARTICLE_20_2"]},
+  {"rule_id":"IMPORT_CUSTOMS_SUPERVISION_REVIEW","version":"1.0","enabled":true,"title":"原进口海关监管风险复核","result_type":"need_review","legal_basis_ids":[]},
+  {"rule_id":"EXPORT_CONTROL_REVIEW","version":"1.1","enabled":true,"title":"HSCode 命中两用物项参考目录","result_type":"need_review","legal_basis_ids":["DUAL_USE_CATALOG_2026"]}
+]

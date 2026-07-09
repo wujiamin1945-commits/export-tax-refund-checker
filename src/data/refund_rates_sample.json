@@ -1,0 +1,18 @@
+[
+  {
+    "hscode": "8479899990",
+    "goods_name": "其他具有独立功能的机器及机械器具",
+    "refund_rate": 13,
+    "version": "sample-2026B",
+    "effective_from": "2026-01-01",
+    "risk_note": "样例数据，仅用于程序测试。实际业务请以最新出口退税率文库为准。"
+  },
+  {
+    "hscode": "8541430000",
+    "goods_name": "光伏电池",
+    "refund_rate": 0,
+    "version": "sample-2026B",
+    "effective_from": "2026-01-01",
+    "risk_note": "样例数据，用于测试退税率为 0 的情况。不可替代最新出口退税率文库。"
+  }
+]
