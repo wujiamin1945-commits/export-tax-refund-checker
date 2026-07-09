@@ -43,7 +43,9 @@ export default function App() {
           )}
         </section>
       </main>
-      <footer>退税率数据来自官方 2026B 版文库；规则判断仍为 MVP，政策或文库更新后应先更新数据再使用。</footer>
+      <footer>
+        本工具仅用于出口退税初步判断，不构成正式税务意见，实际业务以最新政策、退税率文库和主管税务机关口径为准。
+      </footer>
     </div>
   )
 }

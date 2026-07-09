@@ -23,6 +23,32 @@ npm run build  # 生成生产构建
 npm run preview
 ```
 
+## 部署到 Vercel
+
+本项目是标准 React + Vite 静态网页项目，可以直接部署到 Vercel，不依赖后端服务，也不依赖服务器环境变量。
+
+项目约定：
+
+- 项目根目录：当前目录，即包含 `package.json` 的目录。
+- 安装命令：`npm install`
+- 本地预览命令：`npm run dev`
+- 生产构建命令：`npm run build`
+- 构建输出目录：`dist`
+- Framework Preset：选择 `Vite`
+
+部署步骤：
+
+1. 将当前项目推送到 GitHub 仓库。
+2. 登录 Vercel，选择 `Add New Project`。
+3. 导入该 GitHub 仓库。
+4. Vercel 通常会自动识别为 Vite 项目；如需手动填写，使用：
+   - Build Command：`npm run build`
+   - Output Directory：`dist`
+   - Install Command：`npm install`
+5. 点击部署。部署完成后，Vercel 会生成一个可访问的网址。
+
+注意：所有规则、政策依据、退税率样例及已导入的退税率数据均位于 `src/data/` 下，构建时会打包到前端静态资源中。政策或退税率文库更新后，应先更新 `src/data/` 中的数据文件并重新部署。
+
 ## 数据维护
 
 - `src/data/refund_rates_2026B.json`：由官方 2026B 版 DBF/FPT 文库转换，包含 11,727 条自 2026 年起有效的税率区间和 32,099 条商品名称。系统按官方基础商品码进行最长前缀匹配。
@@ -45,4 +71,4 @@ npm run preview
 
 ## 重要声明
 
-本工具只用于内部初步判断，不构成税务、海关或法律意见，不能替代主管税务机关、海关、专业顾问或正式出口退税率文库的判断。政策变更后，应先更新规则库、政策依据库和退税率数据，再使用系统判断。
+本工具仅用于出口退税初步判断，不构成正式税务意见，实际业务以最新政策、退税率文库和主管税务机关口径为准。政策变更后，应先更新规则库、政策依据库和退税率数据，再使用系统判断。
