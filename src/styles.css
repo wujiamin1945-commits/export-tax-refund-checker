@@ -94,6 +94,20 @@ button, input, select { font: inherit; }
 .result-section li + li { margin-top: 7px; }
 .risk-section { background: #fffaf2; }
 .risk-section h3 span { color: var(--warning); background: #ffedcf; }
+.compliance-assessment { padding: 23px 28px; border-bottom: 1px solid var(--line); background: #f4f8fb; }
+.compliance-assessment__heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.compliance-assessment__heading span { color: #315f80; font-size: 11px; font-weight: 750; letter-spacing: .08em; }
+.compliance-assessment__heading strong { padding: 4px 8px; border-radius: 99px; background: #dcebf3; color: #315f80; font-size: 10px; }
+.compliance-assessment h3 { margin: 10px 0 0; color: #263f57; font-size: 16px; line-height: 1.5; }
+.compliance-assessment__issues { margin: 14px 0 0; padding-left: 20px; color: #674e2e; font-size: 12px; line-height: 1.7; }
+.compliance-assessment__notes { margin-top: 13px; padding-top: 11px; border-top: 1px dashed #c9d8e2; }
+.compliance-assessment__notes p { margin: 0; color: #60758a; font-size: 11px; line-height: 1.65; }
+.compliance-assessment__notes p + p { margin-top: 6px; }
+.compliance-assessment--clear { background: #eff8f5; }
+.compliance-assessment--clear .compliance-assessment__heading strong { background: #d7eee5; color: #25674f; }
+.compliance-assessment--review { background: #fff8ed; }
+.compliance-assessment--review .compliance-assessment__heading strong { background: #f8e3bd; color: #8a5716; }
+.compliance-assessment--insufficient { background: #f4f6f8; }
 .legal-list { display: grid; gap: 10px; }
 .legal-list article { border-left: 3px solid #78aabc; padding: 2px 0 2px 13px; }
 .legal-list strong, .legal-list span { display: block; font-size: 12px; }
